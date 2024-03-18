@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+      <div class="container-nav">
+        <div class="container-nav-left">
+          <div class="div-logo">
+            <img src="images/logo.svg" alt="company-logo">
+            
+          </div>
+            <ul class="nav-links">
+              <li>
+                Features
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="Arrow down">
+                <div class="menu-list one">
+                  <p class="list-link">
+                    <img src="images/icon-todo.svg" alt="">
+                    Todo List
+                  </p>
+                  <p class="list-link">
+                    <img src="images/icon-calendar.svg" alt="">
+                    Calender
+                  </p>
+                  <p class="list-link">
+                    <img src="images/icon-reminders.svg" alt="">
+                    Reminders
+                  </p>
+                  <p class="list-link">
+                    <img src="images/icon-planning.svg" alt="">
+                    Planning
+                  </p>
+                </div>
+              </li>
+              <li>
+                Company
+                <img class="arrow" src="images/icon-arrow-down.svg" alt="Arrow down">
+                <div class="menu-list two">
+                  <p class="list-link">
+                    History
+                  </p>
+                  <p class="list-link">
+                    Our Team
+                  </p>
+                  <p class="list-link">
+                    Blog
+                  </p>
+                </div>
+              </li>
+              <li>Careers</li>
+              <li>About</li>
+            </ul>
+        </div>
+        <div class="mobile-menu-btn">
+          <img src="images/icon-menu.svg" alt="">
+        </div>
+        <div class="mobile-menu">
+          <ul class="mobile-list-links">
+            <li>
+              <p>
+                Features <img class="arrow" src="images/icon-arrow-down.svg" alt="">
+              </p>
+              <div class="mobile-item-list">
+                <p class="list-link">
+                  <img src="images/icon-todo.svg" alt="">
+                  Todo List
+                </p>
+                <p class="list-link">
+                  <img src="images/icon-calendar.svg" alt="">
+                  Calender
+                </p>
+                <p class="list-link">
+                  <img src="images/icon-reminders.svg" alt="">
+                  Reminders
+                </p>
+                <p class="list-link">
+                  <img src="images/icon-planning.svg" alt="">
+                  Planning
+                </p>
+              </div>
+            </li>
+            <li>
+              <p>
+                Company <img class="arrow" src="images/icon-arrow-down.svg" alt="">
+              </p>
+              <div class="mobile-item-list">
+                <p class="list-link">
+                  History
+                </p>
+                <p class="list-link">
+                  Our Team
+                </p>
+                <p class="list-link">
+                  Blog 
+                </p>
+              </div>
+              <div class="container-nav-right">
+                <button class="btn-login">Login</button>
+                <button class="btn-register">Register</button>
+              </div>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+          <div class="mobile-menu-login">
+            <button class="btn-login">Login</button>
+            <button class="btn-register">Register</button>
+          </div>
+        </div>
+        <div class="container-nav-right">
+          <button class="btn-login">Login</button>
+          <button class="btn-register">Register</button>
+        </div>
+      </div>
+    </nav>
+  <main>
+
+    <section class="main-container">
+      <div class="main-left">
+        <div>
+          <h1 class="main-title">Make <br> remote work</h1>
+          <p class="main-paragraph">Get your team in sync, no matter your location.<br> Streamline processes,
+            create team rituals, and <br> watch productivity soar.</p>
+          <button class="main-btn">Learn more</button>
+          <div class="main-logos">
+            <img src="images/client-databiz.svg" alt="">
+            <img src="images/client-audiophile.svg" alt="">
+            <img src="images/client-meet.svg" alt="">
+            <img src="images/client-maker.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="image-main">
+        <picture>
+          <source media="(max-width: 930px)" srcset="images/image-hero-mobile.png">
+          <img class="image" src="images/image-hero-desktop.png" alt="">
+        </picture>
+      </div>
+
+    </section>
+    
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/LUKKA0101">Lucas Pinheiro</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
